@@ -18,7 +18,7 @@ public class main {
  *      Game Class that contains the majority of the game logic
  *
  * Game Procedure
- *      Shotgun - itialize how many people start out
+ *      Shotgun - initialize how many people start out
  *      Count out - basic displaying techniques
  *      while the number of hands is greater than 2
  *          cycle through ArrayList
