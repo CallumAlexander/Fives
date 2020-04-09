@@ -1,3 +1,5 @@
+
+// Class containing the hand data
 public class Hand {
 
     // Boolean instance field that stores whether the hand is open or not

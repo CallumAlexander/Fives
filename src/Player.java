@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+// Class containing the player data
 public class Player {
 
     // ArrayList of Hand containing the hands that the player has in
