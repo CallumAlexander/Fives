@@ -1,11 +1,12 @@
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 // Class containing the Game logic
 public class Game extends GameUtil {
 
     // ArrayList of Player that holds the game array
-    public ArrayList<Player> gameArray = new ArrayList<>();
+    public List<Player> gameArray = new ArrayList<>();
 
     // Scanner object to receive input from the console
     public Scanner input = new Scanner(System.in);
