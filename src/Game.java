@@ -15,9 +15,10 @@ public class Game extends GameUtil {
 
         gameArray = shotgun(input, gameArray);
 
+        while (getNumberOfHandsInCircle(gameArray) > 2){
+
+        }
         /*
-        Shotgun - initialize how many people start out
-        Count out - basic displaying techniques
  *      while the number of hands is greater than 2
  *          cycle through ArrayList
  *              If handPosition is a player hand

@@ -38,5 +38,16 @@ public class GameUtil {
         return gameArray;
     }
 
+    public int getNumberOfHandsInCircle(List<Player> gameArray){
+
+        int counter = 0;
+        for (Player player : gameArray){
+            for (Hand hand : player.getHandsList()){
+                counter ++;
+            }
+        }
+        return counter;
+    }
+
 
 }
