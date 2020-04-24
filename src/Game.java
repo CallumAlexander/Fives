@@ -16,7 +16,7 @@ public class Game extends GameUtil {
         gameArray = shotgun(input, gameArray);
 
         while (getNumberOfHandsInCircle(gameArray) > 2){
-            System.out.println("Random text");
+
         }
         /*
  *      while the number of hands is greater than 2

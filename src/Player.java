@@ -5,7 +5,9 @@ public class Player {
 
     // ArrayList of Hand containing the hands that the player has in
     ArrayList<Hand> handsList = new ArrayList<>();
-
+    public Player(Hand initialHand){
+        this.handsList.add(initialHand);
+    }
 
     /**
      *
