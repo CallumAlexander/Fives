@@ -14,7 +14,6 @@ public class Hand {
         return isOpen;
     }
 
-
     /**
      * Setter that sets the state of isOpen
      * @param open - Boolean containing the value that updates isOpen
