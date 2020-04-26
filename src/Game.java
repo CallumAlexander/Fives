@@ -16,23 +16,21 @@ public class Game extends GameUtil {
         gameArray = shotgun(input, gameArray);
 
         while (getNumberOfHandsInCircle(gameArray) > 2){
+            /*
+             *          cycle through ArrayList
+             *              If handPosition is a player hand
+             *                  Player calls hand
+             *                  player calls number
+             *              else
+             *                  player calls hand
+             *              remove hand if need be
+             *
+             *       when hands = 2 and not of the same player
+             *          shotgun again - 2 players start with two hands each
+             *          keep going until player is eliminated
 
+             */
         }
-        /*
- *      while the number of hands is greater than 2
- *          cycle through ArrayList
- *              If handPosition is a player hand
- *                  Player calls hand
- *                  player calls number
- *              else
- *                  player calls hand
- *              remove hand if need be
- *
- *       when hands = 2 and not of the same player
- *          shotgun again - 2 players start with two hands each
- *          keep going until player is eliminated
-
-         */
 
     }
 
