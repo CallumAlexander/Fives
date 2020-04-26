@@ -45,8 +45,13 @@ public class GameUtil {
         System.out.println("SHOTGUN !!");
         System.out.println("From my right to my right...");
 
-        for (int i = 0; i < numberOfPlayers; i++){
-            gameArray.add(new Player(new Hand()));
+        // Initializing the player
+        gameArray.add(new Player(new Hand()));
+        System.out.println(5);
+
+        // Initializing the rest of the circle as AI, and counting out
+        for (int i = 1; i < numberOfPlayers; i++){
+            gameArray.add(new AI(new Hand()));
             int callingNumber = (i+1) * 5; // Output multiples of 5
             System.out.println(callingNumber);
         }
