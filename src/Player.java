@@ -25,8 +25,15 @@ public class Player {
     }
 
 
-    public ArrayList<Hand> changeHand(){
-        return null;
+    /**
+     * Changes the players hand
+     * @param handToChange - index position of the hand the player wants to change
+     * @return - returns the new list of hands
+     */
+    public ArrayList<Hand> changeHand(int handToChange){
+        boolean newValue = !handsList.get(handToChange).isOpen;
+        handsList.get(handToChange).setOpen(newValue);
+        return handsList;
     }
 
     public ArrayList<Hand> callHandsInTheCircle(){
