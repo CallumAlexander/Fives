@@ -21,4 +21,11 @@ public class Hand {
     public void setOpen(boolean open) {
         isOpen = open;
     }
+
+    @Override
+    public String toString() {
+        return "Hand{" +
+                "isOpen=" + isOpen +
+                '}';
+    }
 }

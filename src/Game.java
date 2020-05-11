@@ -15,7 +15,14 @@ public class Game extends GameUtil {
 
         gameArray = shotgun(input, gameArray);
 
-        while (getNumberOfHandsInCircle(gameArray) > 2){
+        //while (getNumberOfHandsInCircle(gameArray) > 2){
+
+        for (int i = 0; i < gameArray.size(); i++) {
+            gameArray.get(i).changeHand(0);
+
+            System.out.println(gameArray.get(i).getHandsList().get(0));
+        }
+
             /*
              *          cycle through ArrayList
              *              If handPosition is a player hand
@@ -30,7 +37,7 @@ public class Game extends GameUtil {
              *          keep going until player is eliminated
 
              */
-        }
+        //}
 
     }
 
