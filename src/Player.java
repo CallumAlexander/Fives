@@ -9,6 +9,8 @@ public class Player {
 
     /**
      * Constructor that adds one hand into the game when the round is counted out
+     * Adheres to the game rule that a player cannot enter the game without a hand
+     *
      * @param initialHand - Hand instance
      */
     public Player(Hand initialHand){
@@ -37,7 +39,7 @@ public class Player {
     }
 
 
-    public ArrayList<Hand> callHandsInTheCircle(){
+    public ArrayList<Hand> callHandsInTheCircle(int call    ){
         return null;
     }
 }

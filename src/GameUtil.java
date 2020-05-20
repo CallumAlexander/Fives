@@ -10,6 +10,8 @@ public class GameUtil {
 
     /**
      * Executes the Shotgun stage of the game
+     * Shotgunning consists of calling a shotgun, then counting out the
+     * number of hands in the cirle
      *
      * @param input - Scanner object for receiving user input
      * @param gameArray - Empty List of Player instances
