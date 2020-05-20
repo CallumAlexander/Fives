@@ -46,7 +46,7 @@ public class GameUtil {
         System.out.println("From my right to my right...");
 
         // Initializing the player
-        gameArray.add(new Player(new Hand()));
+        gameArray.add(new AI(new Hand()));
         System.out.println(5);
 
         // Initializing the rest of the circle as AI, and counting out
